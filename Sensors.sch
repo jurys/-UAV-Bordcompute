@@ -1,0 +1,412 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:Communication
+LIBS:Connector
+LIBS:Crystals
+LIBS:Mechanical
+LIBS:Memory
+LIBS:Modules
+LIBS:Passives
+LIBS:Switcher_IC
+LIBS:Switches
+LIBS:Transistor
+LIBS:uC_Freescale
+LIBS:uC_NXP
+LIBS:USB_IC
+LIBS:Battery
+LIBS:DCDC
+LIBS:Sensors
+LIBS:tinyLinuxModuleVybrid-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BME680 IC?
+U 1 1 57120309
+P 2700 1500
+F 0 "IC?" H 2400 2050 60  0000 L CNN
+F 1 "BME680" H 2750 850 60  0000 L CNN
+F 2 "Sensors:BME680" H 1800 -6775 60  0001 C CNN
+F 3 "" H 1800 -6775 60  0000 C CNN
+	1    2700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MPU-9250 U?
+U 1 1 571208B7
+P 7650 3550
+F 0 "U?" H 8150 2900 60  0000 C CNN
+F 1 "MPU-9250" H 7350 4500 60  0000 C CNN
+F 2 "Sensors:MPU-9250" H 7600 3800 60  0001 C CNN
+F 3 "" H 7600 3800 60  0000 C CNN
+	1    7650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571208F8
+P 1450 1400
+F 0 "C?" H 1500 1500 50  0000 L CNN
+F 1 "100n" H 1500 1300 50  0000 L CNN
+F 2 "Passives:C0402N" H 1488 1250 30  0001 C CNN
+F 3 "" H 1500 1500 60  0000 C CNN
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5712093B
+P 1750 1400
+F 0 "C?" H 1800 1500 50  0000 L CNN
+F 1 "100n" H 1800 1300 50  0000 L CNN
+F 2 "Passives:C0402N" H 1788 1250 30  0001 C CNN
+F 3 "" H 1800 1500 60  0000 C CNN
+	1    1750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5712095D
+P 1450 1000
+F 0 "#PWR?" H 1450 850 50  0001 C CNN
+F 1 "+3V3" H 1450 1140 50  0000 C CNN
+F 2 "" H 1450 1000 50  0000 C CNN
+F 3 "" H 1450 1000 50  0000 C CNN
+	1    1450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5712097D
+P 1450 2000
+F 0 "#PWR?" H 1450 1750 50  0001 C CNN
+F 1 "GND" H 1450 1850 50  0000 C CNN
+F 2 "" H 1450 2000 50  0000 C CNN
+F 3 "" H 1450 2000 50  0000 C CNN
+	1    1450 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1000 1450 1200
+Connection ~ 1750 1100
+Connection ~ 1450 1100
+Wire Wire Line
+	1750 1200 1750 1100
+$Comp
+L R R?
+U 1 1 57120A95
+P 3900 1400
+F 0 "R?" V 3980 1400 50  0000 C CNN
+F 1 "4,7k" V 3825 1400 50  0000 C CNN
+F 2 "Passives:R0402N" V 3830 1400 30  0001 C CNN
+F 3 "" H 3900 1400 30  0000 C CNN
+	1    3900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57120AC6
+P 4200 1400
+F 0 "R?" V 4280 1400 50  0000 C CNN
+F 1 "4,7k" V 4125 1400 50  0000 C CNN
+F 2 "Passives:R0402N" V 4130 1400 30  0001 C CNN
+F 3 "" H 4200 1400 30  0000 C CNN
+	1    4200 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1700 3900 1600
+Wire Wire Line
+	4200 1600 4200 1850
+$Comp
+L R R?
+U 1 1 571216FF
+P 6300 2400
+F 0 "R?" V 6380 2400 50  0000 C CNN
+F 1 "10k" V 6225 2400 50  0000 C CNN
+F 2 "Passives:R0402N" V 6230 2400 30  0001 C CNN
+F 3 "" H 6300 2400 30  0000 C CNN
+	1    6300 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7950 4300
+NoConn ~ 7850 4300
+NoConn ~ 7750 4300
+NoConn ~ 7650 4300
+NoConn ~ 7550 4300
+NoConn ~ 7450 4300
+NoConn ~ 7350 4300
+NoConn ~ 7250 4300
+Wire Wire Line
+	8400 3200 9200 3200
+Wire Wire Line
+	9200 3200 9200 3400
+$Comp
+L GND #PWR?
+U 1 1 57122FCF
+P 8700 4000
+F 0 "#PWR?" H 8700 3750 50  0001 C CNN
+F 1 "GND" H 8700 3850 50  0000 C CNN
+F 2 "" H 8700 4000 50  0000 C CNN
+F 3 "" H 8700 4000 50  0000 C CNN
+	1    8700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57123008
+P 9200 4000
+F 0 "#PWR?" H 9200 3750 50  0001 C CNN
+F 1 "GND" H 9200 3850 50  0000 C CNN
+F 2 "" H 9200 4000 50  0000 C CNN
+F 3 "" H 9200 4000 50  0000 C CNN
+	1    9200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3450 8700 3450
+Wire Wire Line
+	8700 3450 8700 4000
+Wire Wire Line
+	8400 3550 8700 3550
+Connection ~ 8700 3550
+Wire Wire Line
+	9200 3800 9200 4000
+$Comp
+L +3V3 #PWR?
+U 1 1 57123302
+P 10050 2600
+F 0 "#PWR?" H 10050 2450 50  0001 C CNN
+F 1 "+3V3" H 10050 2740 50  0000 C CNN
+F 2 "" H 10050 2600 50  0000 C CNN
+F 3 "" H 10050 2600 50  0000 C CNN
+	1    10050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2800 10050 2800
+Wire Wire Line
+	10050 2600 10050 3400
+Wire Wire Line
+	9600 3400 9600 2800
+Connection ~ 9600 2800
+Connection ~ 10050 2800
+Wire Wire Line
+	8400 2950 8650 2950
+Wire Wire Line
+	8650 2950 8650 2800
+Connection ~ 8650 2800
+$Comp
+L GND #PWR?
+U 1 1 571235AC
+P 9600 4000
+F 0 "#PWR?" H 9600 3750 50  0001 C CNN
+F 1 "GND" H 9600 3850 50  0000 C CNN
+F 2 "" H 9600 4000 50  0000 C CNN
+F 3 "" H 9600 4000 50  0000 C CNN
+	1    9600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571235FC
+P 10050 4000
+F 0 "#PWR?" H 10050 3750 50  0001 C CNN
+F 1 "GND" H 10050 3850 50  0000 C CNN
+F 2 "" H 10050 4000 50  0000 C CNN
+F 3 "" H 10050 4000 50  0000 C CNN
+	1    10050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3800 10050 4000
+Wire Wire Line
+	9600 3800 9600 4000
+$Comp
+L +3V3 #PWR?
+U 1 1 57127673
+P 6100 2000
+F 0 "#PWR?" H 6100 1850 50  0001 C CNN
+F 1 "+3V3" H 6100 2140 50  0000 C CNN
+F 2 "" H 6100 2000 50  0000 C CNN
+F 3 "" H 6100 2000 50  0000 C CNN
+	1    6100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2800 5550 2800
+Wire Wire Line
+	6300 2600 6300 2800
+Connection ~ 6300 2800
+Wire Wire Line
+	6900 2950 5550 2950
+Wire Wire Line
+	5900 2600 5900 2950
+Connection ~ 5900 2950
+Wire Wire Line
+	5900 2200 5900 2100
+Wire Wire Line
+	5900 2100 6300 2100
+Wire Wire Line
+	6300 2100 6300 2200
+Wire Wire Line
+	6100 2000 6100 2100
+Connection ~ 6100 2100
+Text HLabel 5550 2800 0    60   Input ~ 0
+SDA
+Text HLabel 5550 2950 0    60   Input ~ 0
+SCL
+$Comp
+L +3V3 #PWR?
+U 1 1 571281D0
+P 6450 3200
+F 0 "#PWR?" H 6450 3050 50  0001 C CNN
+F 1 "+3V3" H 6450 3340 50  0000 C CNN
+F 2 "" H 6450 3200 50  0000 C CNN
+F 3 "" H 6450 3200 50  0000 C CNN
+	1    6450 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 3200 6900 3200
+NoConn ~ 6900 3300
+NoConn ~ 6900 3400
+$Comp
+L GND #PWR?
+U 1 1 5712831A
+P 6350 3850
+F 0 "#PWR?" H 6350 3600 50  0001 C CNN
+F 1 "GND" H 6350 3700 50  0000 C CNN
+F 2 "" H 6350 3850 50  0000 C CNN
+F 3 "" H 6350 3850 50  0000 C CNN
+	1    6350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3850 6350 3700
+Wire Wire Line
+	6350 3700 6900 3700
+Wire Wire Line
+	6900 3850 6700 3850
+Wire Wire Line
+	6700 3850 6700 3700
+Connection ~ 6700 3700
+Text HLabel 5500 3550 0    60   Input ~ 0
+INT
+Wire Wire Line
+	6900 3550 5500 3550
+Text Notes 4750 4250 0    60   ~ 0
+Interrupt digital output (totem pole or open-drain) \n
+$Comp
+L C C?
+U 1 1 57129277
+P 9200 3600
+F 0 "C?" H 9250 3700 50  0000 L CNN
+F 1 "100n" H 9250 3500 50  0000 L CNN
+F 2 "Passives:C0402N" H 9238 3450 30  0001 C CNN
+F 3 "" H 9250 3700 60  0000 C CNN
+	1    9200 3600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8400 3700
+NoConn ~ 4250 3550
+Wire Wire Line
+	1450 1950 2150 1950
+Connection ~ 1450 1950
+Wire Wire Line
+	2150 1850 2000 1850
+Wire Wire Line
+	2000 1850 2000 1950
+Connection ~ 2000 1950
+Wire Wire Line
+	2150 1100 1450 1100
+Wire Wire Line
+	2000 1100 2000 1200
+Wire Wire Line
+	2000 1200 2150 1200
+Connection ~ 2000 1100
+Connection ~ 1750 1950
+Wire Wire Line
+	3300 1700 4700 1700
+Wire Wire Line
+	3300 1850 4700 1850
+Wire Wire Line
+	3300 1100 4200 1100
+Wire Wire Line
+	3900 1100 3900 1200
+Wire Wire Line
+	4200 900  4200 1200
+Connection ~ 3900 1100
+$Comp
+L +3V3 #PWR?
+U 1 1 57110B2A
+P 4200 900
+F 0 "#PWR?" H 4200 750 50  0001 C CNN
+F 1 "+3V3" H 4200 1040 50  0000 C CNN
+F 2 "" H 4200 900 50  0000 C CNN
+F 3 "" H 4200 900 50  0000 C CNN
+	1    4200 900 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 1100
+Connection ~ 3900 1700
+Connection ~ 4200 1850
+Wire Wire Line
+	3300 2050 4700 2050
+Wire Wire Line
+	1450 1600 1450 2000
+Wire Wire Line
+	1750 1600 1750 1950
+Text Notes 3400 2200 0    60   ~ 0
+I2C address bit 0 GND: '0'; VDDIO: '1' \n
+Text HLabel 4700 1700 2    60   Input ~ 0
+SDI
+Text HLabel 4700 1850 2    60   Input ~ 0
+SCK
+Text HLabel 4700 2050 2    60   Input ~ 0
+SDO
+$Comp
+L R R?
+U 1 1 57116F68
+P 5900 2400
+F 0 "R?" V 5980 2400 50  0000 C CNN
+F 1 "10k" V 5825 2400 50  0000 C CNN
+F 2 "Passives:R0402N" V 5830 2400 30  0001 C CNN
+F 3 "" H 5900 2400 30  0000 C CNN
+	1    5900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57117060
+P 9600 3600
+F 0 "C?" H 9650 3700 50  0000 L CNN
+F 1 "100n" H 9650 3500 50  0000 L CNN
+F 2 "Passives:C0402N" H 9638 3450 30  0001 C CNN
+F 3 "" H 9650 3700 60  0000 C CNN
+	1    9600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57117099
+P 10050 3600
+F 0 "C?" H 10100 3700 50  0000 L CNN
+F 1 "100n" H 10100 3500 50  0000 L CNN
+F 2 "Passives:C0402N" H 10088 3450 30  0001 C CNN
+F 3 "" H 10100 3700 60  0000 C CNN
+	1    10050 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

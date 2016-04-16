@@ -1,0 +1,203 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:Communication
+LIBS:Connector
+LIBS:Crystals
+LIBS:Mechanical
+LIBS:Memory
+LIBS:Modules
+LIBS:Passives
+LIBS:Switcher_IC
+LIBS:Switches
+LIBS:Transistor
+LIBS:uC_Freescale
+LIBS:uC_NXP
+LIBS:USB_IC
+LIBS:Battery
+LIBS:DCDC
+LIBS:Sensors
+LIBS:tinyLinuxModuleVybrid-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L U-BLOX_LILY-W1 U?
+U 1 1 5711273F
+P 3800 3500
+F 0 "U?" H 4650 2550 60  0000 C CNN
+F 1 "U-BLOX_LILY-W1" H 3500 4600 60  0000 C CNN
+F 2 "Communication:UBLOX-LILY-W1" H 3700 3250 60  0001 C CNN
+F 3 "" H 3700 3250 60  0000 C CNN
+	1    3800 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 2950
+NoConn ~ 2900 3100
+NoConn ~ 2900 3250
+NoConn ~ 2900 3400
+NoConn ~ 2900 3550
+NoConn ~ 2900 3700
+$Comp
+L GND #PWR?
+U 1 1 57112756
+P 2600 4150
+F 0 "#PWR?" H 2600 3900 50  0001 C CNN
+F 1 "GND" H 2600 4000 50  0000 C CNN
+F 2 "" H 2600 4150 50  0000 C CNN
+F 3 "" H 2600 4150 50  0000 C CNN
+	1    2600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4150 2600 3900
+Wire Wire Line
+	2600 3900 2900 3900
+$Comp
+L R R?
+U 1 1 57112774
+P 6050 3950
+F 0 "R?" V 6130 3950 50  0000 C CNN
+F 1 "R" V 5975 3950 50  0000 C CNN
+F 2 "" V 5980 3950 30  0000 C CNN
+F 3 "" H 6050 3950 30  0000 C CNN
+	1    6050 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 571127A8
+P 5450 4050
+F 0 "R?" V 5530 4050 50  0000 C CNN
+F 1 "R" V 5375 4050 50  0000 C CNN
+F 2 "" V 5380 4050 30  0000 C CNN
+F 3 "" H 5450 4050 30  0000 C CNN
+	1    5450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 571127D2
+P 6400 4450
+F 0 "C?" H 6450 4550 50  0000 L CNN
+F 1 "C" H 6450 4350 50  0000 L CNN
+F 2 "" H 6438 4300 30  0000 C CNN
+F 3 "" H 6450 4550 60  0000 C CNN
+	1    6400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571127FC
+P 6800 4450
+F 0 "C?" H 6850 4550 50  0000 L CNN
+F 1 "C" H 6850 4350 50  0000 L CNN
+F 2 "" H 6838 4300 30  0000 C CNN
+F 3 "" H 6850 4550 60  0000 C CNN
+	1    6800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3950 5850 3950
+Wire Wire Line
+	5250 4050 4900 4050
+Wire Wire Line
+	5650 4050 7150 4050
+Wire Wire Line
+	6400 4050 6400 4250
+Wire Wire Line
+	6250 3950 7150 3950
+Wire Wire Line
+	6800 3950 6800 4250
+Connection ~ 6400 4050
+Connection ~ 6800 3950
+$Comp
+L GND #PWR?
+U 1 1 57112915
+P 6800 4800
+F 0 "#PWR?" H 6800 4550 50  0001 C CNN
+F 1 "GND" H 6800 4650 50  0000 C CNN
+F 2 "" H 6800 4800 50  0000 C CNN
+F 3 "" H 6800 4800 50  0000 C CNN
+	1    6800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5711293E
+P 6400 4800
+F 0 "#PWR?" H 6400 4550 50  0001 C CNN
+F 1 "GND" H 6400 4650 50  0000 C CNN
+F 2 "" H 6400 4800 50  0000 C CNN
+F 3 "" H 6400 4800 50  0000 C CNN
+	1    6400 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4800 6800 4650
+Wire Wire Line
+	6400 4650 6400 4800
+Text HLabel 7150 4050 2    60   Input ~ 0
+USB_D+
+Text HLabel 7150 3950 2    60   Input ~ 0
+USB_D-
+$Comp
+L AS179-92LF U?
+U 1 1 57112CC8
+P 7800 2850
+F 0 "U?" H 8050 2600 60  0000 C CNN
+F 1 "AS179-92LF" H 7800 3100 60  0000 C CNN
+F 2 "" H 7850 2850 60  0000 C CNN
+F 3 "" H 7850 2850 60  0000 C CNN
+	1    7800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57112D8E
+P 6050 2700
+F 0 "R?" V 6130 2700 50  0000 C CNN
+F 1 "R" V 5975 2700 50  0000 C CNN
+F 2 "" V 5980 2700 30  0000 C CNN
+F 3 "" H 6050 2700 30  0000 C CNN
+	1    6050 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57112DE1
+P 6500 2850
+F 0 "R?" V 6580 2850 50  0000 C CNN
+F 1 "R" V 6425 2850 50  0000 C CNN
+F 2 "" V 6430 2850 30  0000 C CNN
+F 3 "" H 6500 2850 30  0000 C CNN
+	1    6500 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 2700 6250 2700
+Wire Wire Line
+	6700 2850 7300 2850
+Wire Wire Line
+	4900 3100 5650 3100
+Wire Wire Line
+	5650 3100 5650 2700
+Wire Wire Line
+	5650 2700 5850 2700
+Wire Wire Line
+	4900 3200 5750 3200
+Wire Wire Line
+	5750 3200 5750 2850
+Wire Wire Line
+	5750 2850 6300 2850
+$EndSCHEMATC
