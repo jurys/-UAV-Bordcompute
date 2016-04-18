@@ -1592,7 +1592,7 @@ F5 "TxD" I R 1850 1300 60
 F6 "USB_D+" I L 800 1100 60 
 F7 "USB_D-" I L 800 1300 60 
 $EndSheet
-Text Notes 750  2300 0    60   ~ 0
+Text Notes 800  2300 0    60   ~ 0
 TOBY-L2 series \nLTE/DC-HSPA+/EGPRS modules \n
 $Sheet
 S 850  2600 1000 900 
@@ -1608,4 +1608,8 @@ U 5712437A
 F0 "NEO" 60
 F1 "NEO.sch" 60
 $EndSheet
+Text Notes 850  3800 0    60   ~ 0
+LILY-W1 series \nHost-based Wi-Fi modules 
+Text Notes 2400 2300 0    60   ~ 0
+NEO-M8 \nu-blox M8 concurrent GNSS modules 
 $EndSCHEMATC
