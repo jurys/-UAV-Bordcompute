@@ -21,7 +21,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
 Date "2016-04-12"
 Rev "1"
@@ -782,4 +782,19 @@ F 3 "" H 1150 1500 50  0000 C CNN
 $EndComp
 Connection ~ 1150 1650
 Connection ~ 4000 1750
+$Comp
+L +1V8 #PWR?
+U 1 1 57168AFB
+P 7400 1500
+F 0 "#PWR?" H 7400 1350 50  0001 C CNN
+F 1 "+1V8" H 7400 1640 50  0000 C CNN
+F 2 "" H 7400 1500 50  0000 C CNN
+F 3 "" H 7400 1500 50  0000 C CNN
+	1    7400 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1600 7400 1600
+Wire Wire Line
+	7400 1600 7400 1500
 $EndSCHEMATC

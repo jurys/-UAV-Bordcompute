@@ -1,2 +1,5 @@
 *.bak
 *.net
+LILY.sch
+_autosave-*
+_saved_*
