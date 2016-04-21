@@ -31,15 +31,246 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 900  950  0    60   ~ 0
+NEO-M8P - Hardware Integration Manual \nA.1 Recommended parts \nRecommended antennas \n
+Text Notes 900  1300 0    60   ~ 0
+C94-M8P - User Guide \n9 Schematic \n\n
+Wire Wire Line
+	4750 4550 3450 4550
+Wire Wire Line
+	3450 4550 3450 4400
 $Comp
-L U-BLOX_NEO-M8P U?
-U 1 1 5712449B
-P 5450 3400
-F 0 "U?" H 5800 2750 60  0000 C CNN
-F 1 "U-BLOX_NEO-M8P" H 5400 4050 60  0000 C CNN
-F 2 "" H 5450 3400 60  0000 C CNN
-F 3 "" H 5450 3400 60  0000 C CNN
-	1    5450 3400
+L +3V3 #PWR?
+U 1 1 57190E14
+P 3450 4400
+F 0 "#PWR?" H 3450 4250 50  0001 C CNN
+F 1 "+3V3" H 3450 4540 50  0000 C CNN
+F 2 "" H 3450 4400 50  0000 C CNN
+F 3 "" H 3450 4400 50  0000 C CNN
+	1    3450 4400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 4650 3450 4650
+Wire Wire Line
+	3450 4650 3450 4800
+$Comp
+L GND #PWR?
+U 1 1 57190E31
+P 3450 4800
+F 0 "#PWR?" H 3450 4550 50  0001 C CNN
+F 1 "GND" H 3450 4650 50  0000 C CNN
+F 2 "" H 3450 4800 50  0000 C CNN
+F 3 "" H 3450 4800 50  0000 C CNN
+	1    3450 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3400 7900 3400
+Wire Wire Line
+	7900 3600 6450 3600
+Connection ~ 7900 3400
+Wire Wire Line
+	4750 3400 3450 3400
+Wire Wire Line
+	3450 3400 3450 3250
+$Comp
+L GND #PWR?
+U 1 1 57190E68
+P 7900 3250
+F 0 "#PWR?" H 7900 3000 50  0001 C CNN
+F 1 "GND" H 7900 3100 50  0000 C CNN
+F 2 "" H 7900 3250 50  0000 C CNN
+F 3 "" H 7900 3250 50  0000 C CNN
+	1    7900 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57190E94
+P 3450 3250
+F 0 "#PWR?" H 3450 3000 50  0001 C CNN
+F 1 "GND" H 3450 3100 50  0000 C CNN
+F 2 "" H 3450 3250 50  0000 C CNN
+F 3 "" H 3450 3250 50  0000 C CNN
+	1    3450 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 4450 4500 4450
+Wire Wire Line
+	4500 4450 4500 4550
+Connection ~ 4500 4550
+$Comp
+L U-BLOX_NEO-M8P U?
+U 1 1 571912B3
+P 5600 4100
+F 0 "U?" H 6200 3450 60  0000 C CNN
+F 1 "U-BLOX_NEO-M8P" H 5350 4900 60  0000 C CNN
+F 2 "" H 5600 4100 60  0000 C CNN
+F 3 "" H 5600 4100 60  0000 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3600 7900 3250
+Wire Wire Line
+	6450 3800 6700 3800
+$Comp
+L R R?
+U 1 1 57191331
+P 6900 3800
+F 0 "R?" V 6980 3800 50  0000 C CNN
+F 1 "R" V 6825 3800 50  0000 C CNN
+F 2 "" V 6830 3800 30  0000 C CNN
+F 3 "" H 6900 3800 30  0000 C CNN
+	1    6900 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 3800 7900 3800
+Text HLabel 7900 3800 2    60   Input ~ 0
+RESET_N
+Wire Wire Line
+	6450 4150 7900 4150
+Wire Wire Line
+	6450 4250 7900 4250
+Text HLabel 7900 4150 2    60   Input ~ 0
+USB_DP
+Text HLabel 7900 4250 2    60   Input ~ 0
+USB_DM
+Text HLabel 7900 4350 2    60   Input ~ 0
+EXTINTO
+NoConn ~ 6450 4550
+Text HLabel 7900 4650 2    60   Input ~ 0
+SAFEBOOT_N
+Wire Wire Line
+	6450 4350 7900 4350
+Wire Wire Line
+	6450 4650 7900 4650
+$Comp
+L R R?
+U 1 1 57191463
+P 4450 4350
+F 0 "R?" V 4530 4350 50  0000 C CNN
+F 1 "R" V 4375 4350 50  0000 C CNN
+F 2 "" V 4380 4350 30  0000 C CNN
+F 3 "" H 4450 4350 30  0000 C CNN
+	1    4450 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57191481
+P 4150 4250
+F 0 "R?" V 4230 4250 50  0000 C CNN
+F 1 "R" V 4075 4250 50  0000 C CNN
+F 2 "" V 4080 4250 30  0000 C CNN
+F 3 "" H 4150 4250 30  0000 C CNN
+	1    4150 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 4250 4750 4250
+Wire Wire Line
+	4650 4350 4750 4350
+Wire Wire Line
+	4250 4350 3850 4350
+Wire Wire Line
+	3950 4250 3850 4250
+Text HLabel 3850 4250 0    60   Input ~ 0
+RX
+Text HLabel 3850 4350 0    60   Input ~ 0
+TX
+NoConn ~ 4750 4150
+NoConn ~ 4750 4050
+NoConn ~ 4750 3800
+$Comp
+L ANT X?
+U 1 1 5719155A
+P 9000 3000
+F 0 "X?" H 9150 2950 50  0000 C CNN
+F 1 "ANT" H 8950 3150 50  0000 C CNN
+F 2 "" H 9000 3000 60  0000 C CNN
+F 3 "" H 9000 3000 60  0000 C CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 571915BF
+P 8800 3250
+F 0 "L?" H 8850 3350 50  0000 L CNN
+F 1 "L" H 8850 3150 50  0000 L CNN
+F 2 "" H 8838 3100 30  0000 C CNN
+F 3 "" H 8800 3250 60  0000 C CNN
+	1    8800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3500 8600 3500
+Wire Wire Line
+	8600 3500 8600 3000
+Wire Wire Line
+	8600 3000 9000 3000
+$Comp
+L R R?
+U 1 1 57191704
+P 8500 3700
+F 0 "R?" V 8580 3700 50  0000 C CNN
+F 1 "R" V 8425 3700 50  0000 C CNN
+F 2 "" V 8430 3700 30  0000 C CNN
+F 3 "" H 8500 3700 30  0000 C CNN
+	1    8500 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 57191740
+P 8800 4100
+F 0 "C?" H 8850 4200 50  0000 L CNN
+F 1 "C" H 8850 4000 50  0000 L CNN
+F 2 "" H 8838 3950 30  0000 C CNN
+F 3 "" H 8850 4200 60  0000 C CNN
+	1    8800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3700 8300 3700
+Wire Wire Line
+	8800 3050 8800 3000
+Connection ~ 8800 3000
+Wire Wire Line
+	8800 3450 8800 3900
+Wire Wire Line
+	8700 3700 8800 3700
+Connection ~ 8800 3700
+$Comp
+L GND #PWR?
+U 1 1 57191865
+P 8800 4450
+F 0 "#PWR?" H 8800 4200 50  0001 C CNN
+F 1 "GND" H 8800 4300 50  0000 C CNN
+F 2 "" H 8800 4450 50  0000 C CNN
+F 3 "" H 8800 4450 50  0000 C CNN
+	1    8800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57191891
+P 9000 3400
+F 0 "#PWR?" H 9000 3150 50  0001 C CNN
+F 1 "GND" H 9000 3250 50  0000 C CNN
+F 2 "" H 9000 3400 50  0000 C CNN
+F 3 "" H 9000 3400 50  0000 C CNN
+	1    9000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3400 9000 3150
+Wire Wire Line
+	8800 4450 8800 4300
+Text Notes 7500 2750 0    60   ~ 0
+NEO-M8P - Hardware Integration Manual \nActive antenna design using VCC_RF pin to supply the active antenna 
 $EndSCHEMATC
