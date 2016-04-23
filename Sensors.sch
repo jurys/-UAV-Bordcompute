@@ -21,7 +21,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -320,7 +320,6 @@ F 3 "" H 9250 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8400 3700
-NoConn ~ 4250 3550
 Wire Wire Line
 	1450 1950 2150 1950
 Connection ~ 1450 1950
@@ -409,4 +408,6 @@ F 3 "" H 10100 3700 60  0000 C CNN
 	1    10050 3600
 	1    0    0    -1  
 $EndComp
+Text Notes 7200 2500 0    60   ~ 0
+Über SPI anbinden\n
 $EndSCHEMATC
