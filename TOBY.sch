@@ -665,7 +665,7 @@ USB_D-
 Text HLabel 3800 2250 0    60   Input ~ 0
 PWR_ON
 Text HLabel 3800 2450 0    60   Input ~ 0
-RESET
+~RESET
 Wire Wire Line
 	3800 2250 4200 2250
 Wire Wire Line
