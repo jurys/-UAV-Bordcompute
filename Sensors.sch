@@ -267,19 +267,6 @@ Text HLabel 5550 2800 0    60   Input ~ 0
 SDA
 Text HLabel 5550 2950 0    60   Input ~ 0
 SCL
-$Comp
-L +3V3 #PWR?
-U 1 1 571281D0
-P 6450 3200
-F 0 "#PWR?" H 6450 3050 50  0001 C CNN
-F 1 "+3V3" H 6450 3340 50  0000 C CNN
-F 2 "" H 6450 3200 50  0000 C CNN
-F 3 "" H 6450 3200 50  0000 C CNN
-	1    6450 3200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6450 3200 6900 3200
 NoConn ~ 6900 3300
 NoConn ~ 6900 3400
 $Comp
@@ -410,4 +397,6 @@ F 3 "" H 10100 3700 60  0000 C CNN
 $EndComp
 Text Notes 7200 2500 0    60   ~ 0
 Über SPI anbinden\n
+Wire Wire Line
+	6900 3200 5550 3200
 $EndSCHEMATC
