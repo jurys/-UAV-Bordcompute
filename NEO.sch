@@ -76,22 +76,11 @@ Text HLabel 8600 3800 2    60   Input ~ 0
 USB_DM
 $Comp
 L R R?
-U 1 1 57191463
-P 4950 4300
-F 0 "R?" V 5030 4300 50  0000 C CNN
-F 1 "R" V 4875 4300 50  0000 C CNN
-F 2 "" V 4880 4300 30  0000 C CNN
-F 3 "" H 4950 4300 30  0000 C CNN
-	1    4950 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L R R?
 U 1 1 57191481
 P 4650 4200
 F 0 "R?" V 4730 4200 50  0000 C CNN
-F 1 "R" V 4575 4200 50  0000 C CNN
-F 2 "" V 4580 4200 30  0000 C CNN
+F 1 "0" V 4575 4200 50  0000 C CNN
+F 2 "Passives:R0402N" V 4580 4200 30  0001 C CNN
 F 3 "" H 4650 4200 30  0000 C CNN
 	1    4650 4200
 	0    1    1    0   
@@ -114,7 +103,7 @@ U 1 1 5719155A
 P 2700 3150
 F 0 "X?" H 2850 3100 50  0000 C CNN
 F 1 "ANT" H 2650 3300 50  0000 C CNN
-F 2 "" H 2700 3150 60  0000 C CNN
+F 2 "Connector:U.FL-R-SMT" H 2700 3150 60  0001 C CNN
 F 3 "" H 2700 3150 60  0000 C CNN
 	1    2700 3150
 	-1   0    0    -1  
@@ -200,7 +189,7 @@ U 1 1 57210515
 P 6200 3500
 F 0 "U?" H 6900 2500 60  0000 C CNN
 F 1 "U-BLOX-NEO-M8N" H 5900 4750 60  0000 C CNN
-F 2 "" H 6200 4100 60  0000 C CNN
+F 2 "Communication:UBLOX_NEO-M8P" H 6200 4100 60  0001 C CNN
 F 3 "" H 6200 4100 60  0000 C CNN
 	1    6200 3500
 	1    0    0    -1  
@@ -232,7 +221,7 @@ EXTINT: External interrupt\n
 NoConn ~ 5250 2600
 Text Notes 3500 2400 0    60   ~ 0
 If open, UART and DDC are available. 
-Text Notes 3050 4250 0    60   ~ 0
+Text Notes 3050 4150 0    60   ~ 0
 VCC_RF can be used to power \nan external active antenna. 
 Wire Wire Line
 	3400 3850 4200 3850
@@ -294,4 +283,15 @@ Wire Wire Line
 	4450 3300 4450 3400
 Wire Wire Line
 	4450 3400 4750 3400
+$Comp
+L R R?
+U 1 1 5723EA45
+P 4950 4300
+F 0 "R?" V 5030 4300 50  0000 C CNN
+F 1 "0" V 4875 4300 50  0000 C CNN
+F 2 "Passives:R0402N" V 4880 4300 30  0001 C CNN
+F 3 "" H 4950 4300 30  0000 C CNN
+	1    4950 4300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

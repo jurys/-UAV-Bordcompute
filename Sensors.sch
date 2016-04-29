@@ -399,4 +399,6 @@ Text Notes 7200 2500 0    60   ~ 0
 Über SPI anbinden\n
 Wire Wire Line
 	6900 3200 5550 3200
+Text Notes 7700 2600 0    60   ~ 0
+Nach shematic fragen!\n
 $EndSCHEMATC
