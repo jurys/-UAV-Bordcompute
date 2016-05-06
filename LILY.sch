@@ -440,4 +440,6 @@ Text Label 9300 1550 0    60   ~ 0
 RF
 Text Label 5100 3550 0    60   ~ 0
 RF
+NoConn ~ 4900 3350
+NoConn ~ 4900 3450
 $EndSCHEMATC
