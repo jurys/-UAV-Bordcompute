@@ -850,8 +850,6 @@ Text Label 600  8850 0    60   ~ 0
 PTB18
 Text Label 600  8750 0    60   ~ 0
 PTB20
-Text Label 7900 4500 2    60   ~ 0
-PTB10
 Text Label 600  9350 0    60   ~ 0
 PTB28
 Text Label 600  9650 0    60   ~ 0
@@ -878,8 +876,6 @@ Text Label 600  9850 0    60   ~ 0
 PTC28
 Text Label 600  9750 0    60   ~ 0
 PTC27
-Text Label 7900 4750 2    60   ~ 0
-PTB11
 Text Label 600  8950 0    60   ~ 0
 PTB22
 Text Label 600  10550 0    60   ~ 0
@@ -996,6 +992,8 @@ F24 "USBC_D+" I R 2900 2550 60
 F25 "USBC_D-" I R 2900 2650 60 
 F26 "USBD_D+" I R 2900 2750 60 
 F27 "USBD_D-" I R 2900 2850 60 
+F28 "RX_NEO" I L 1300 1000 60 
+F29 "TX_NEO" I L 1300 1150 60 
 $EndSheet
 $Comp
 L LED LED101
@@ -1317,8 +1315,6 @@ Wire Wire Line
 Wire Wire Line
 	600  8950 1550 8950
 Wire Wire Line
-	7900 4750 6950 4750
-Wire Wire Line
 	1550 9750 600  9750
 Wire Wire Line
 	1550 9850 600  9850
@@ -1344,8 +1340,6 @@ Wire Wire Line
 	1550 9650 600  9650
 Wire Wire Line
 	1550 9350 600  9350
-Wire Wire Line
-	7900 4500 6950 4500
 Wire Wire Line
 	1550 8750 600  8750
 Wire Wire Line
@@ -1380,8 +1374,6 @@ Wire Wire Line
 	1300 2250 650  2250
 Wire Wire Line
 	600  9450 1550 9450
-Wire Wire Line
-	5600 4500 6550 4500
 Wire Wire Line
 	1550 10050 600  10050
 Wire Wire Line
@@ -1982,28 +1974,6 @@ Wire Wire Line
 Text Label 10750 5200 0    60   ~ 0
 PTE5
 $Comp
-L R R108
-U 1 1 56447E61
-P 6750 4500
-F 0 "R108" V 6830 4500 50  0000 C CNN
-F 1 "22" V 6675 4500 50  0000 C CNN
-F 2 "Passives:R0402N" V 6680 4500 30  0001 C CNN
-F 3 "" H 6750 4500 30  0000 C CNN
-	1    6750 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L R R109
-U 1 1 5644867F
-P 6750 4750
-F 0 "R109" V 6830 4750 50  0000 C CNN
-F 1 "22" V 6675 4750 50  0000 C CNN
-F 2 "Passives:R0402N" V 6680 4750 30  0001 C CNN
-F 3 "" H 6750 4750 30  0000 C CNN
-	1    6750 4750
-	0    1    1    0   
-$EndComp
-$Comp
 L FIDUCIAL FID101
 U 1 1 5644CEF9
 P 15800 800
@@ -2477,8 +2447,8 @@ Wire Wire Line
 	8050 1350 8400 1350
 Wire Wire Line
 	8400 1350 8400 1400
-Text Notes 6500 4350 0    60   ~ 0
-Was ist das?
 Text Notes 12000 3350 0    60   ~ 0
 Funktion!
+Text Notes 3650 2000 0    60   ~ 0
+???
 $EndSCHEMATC

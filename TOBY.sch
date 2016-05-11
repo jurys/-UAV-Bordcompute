@@ -628,18 +628,10 @@ F 3 "" H 5700 3400 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2050 4800 2050 4900
-Text HLabel 3850 3350 0    60   Input ~ 0
-RxD
-Text HLabel 3850 3250 0    60   Input ~ 0
-TxD
 Wire Wire Line
 	3850 2950 4200 2950
 Wire Wire Line
 	3850 3050 4200 3050
-Wire Wire Line
-	3850 3250 4200 3250
-Wire Wire Line
-	3850 3350 4200 3350
 $Comp
 L R R303
 U 1 1 5710A608
@@ -955,4 +947,6 @@ Wird UART benutzt?\nSystem Integration Manual  S.107
 NoConn ~ 4200 4650
 Text Notes 2450 2600 0    60   ~ 0
 So groß?
+NoConn ~ 4200 3250
+NoConn ~ 4200 3350
 $EndSCHEMATC

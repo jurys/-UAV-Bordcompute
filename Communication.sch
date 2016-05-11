@@ -599,12 +599,10 @@ S 2300 1000 1050 1050
 U 570DCCC5
 F0 "TOBY" 60
 F1 "TOBY.sch" 60
-F2 "RxD" I R 3350 1150 60 
-F3 "TxD" I R 3350 1350 60 
-F4 "USB_D+" I R 3350 1550 60 
-F5 "USB_D-" I R 3350 1700 60 
-F6 "~RESET" I L 2300 1300 60 
-F7 "PWR_ON" I L 2300 1500 60 
+F2 "USB_D+" I R 3350 1550 60 
+F3 "USB_D-" I R 3350 1700 60 
+F4 "~RESET" I L 2300 1300 60 
+F5 "PWR_ON" I L 2300 1500 60 
 $EndSheet
 Text Notes 2250 900  0    60   ~ 0
 TOBY-L2 series \nLTE/DC-HSPA+/EGPRS modules \n
@@ -680,4 +678,34 @@ F2 "RX" I R 8200 1550 60
 F3 "TX" I R 8200 1750 60 
 F4 "~RESET" I R 8200 2000 60 
 $EndSheet
+Text HLabel 5950 1500 2    60   Input ~ 0
+~RESET
+Text HLabel 8400 2000 2    60   Input ~ 0
+~RESET
+Wire Wire Line
+	5650 1500 5950 1500
+Wire Wire Line
+	8200 2000 8400 2000
+Text Notes 1600 1600 0    60   ~ 0
+TOBY PWR_ON\nNachschlagen\n
+Text HLabel 5950 1000 2    60   Input ~ 0
+USB_VBUS_EN
+Text HLabel 5950 1150 2    60   Input ~ 0
+USB_VBUS_OC
+Text HLabel 5950 1300 2    60   Input ~ 0
+USB_VBUS_OUT
+Wire Wire Line
+	5650 1000 5950 1000
+Wire Wire Line
+	5650 1150 5950 1150
+Wire Wire Line
+	5650 1300 5950 1300
+Text HLabel 8550 1550 2    60   Input ~ 0
+RX_NEO
+Text HLabel 8550 1750 2    60   Input ~ 0
+TX_NEO
+Wire Wire Line
+	8200 1550 8550 1550
+Wire Wire Line
+	8200 1750 8550 1750
 $EndSCHEMATC
