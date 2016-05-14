@@ -800,8 +800,6 @@ Text Label 3650 5900 2    60   ~ 0
 PTC3
 Text Label 3650 6100 2    60   ~ 0
 PTC5
-Text Label 600  8450 0    60   ~ 0
-PTA12
 Text Label 3650 6000 2    60   ~ 0
 PTC4
 Text Label 650  2150 0    60   ~ 0
@@ -810,8 +808,6 @@ Text Label 650  1850 0    60   ~ 0
 PTC15
 Text Label 650  2050 0    60   ~ 0
 PTC14
-Text Label 600  9450 0    60   ~ 0
-PTC8
 Text Label 650  2250 0    60   ~ 0
 PTC12
 Text Label 650  1950 0    60   ~ 0
@@ -822,66 +818,18 @@ Text Label 3650 5800 2    60   ~ 0
 PTC2
 Text Label 650  1550 0    60   ~ 0
 PTA6
-Text Label 600  8350 0    60   ~ 0
-PTA19
-Text Label 600  8250 0    60   ~ 0
-PTA18
-Text Label 600  8650 0    60   ~ 0
-PTB27
-Text Label 600  10250 0    60   ~ 0
-PTD12
-Text Label 600  10150 0    60   ~ 0
-PTD10
-Text Label 600  10050 0    60   ~ 0
-PTD11
-Text Label 5600 4500 0    60   ~ 0
-PTD1
 Text Label 650  1750 0    60   ~ 0
 PTC16
 Text Label 650  1650 0    60   ~ 0
 PTC17
-Text Label 5600 4750 0    60   ~ 0
-PTD0
 Text Label 650  1350 0    60   ~ 0
 PTC9
-Text Label 600  10350 0    60   ~ 0
-PTD9
-Text Label 600  8850 0    60   ~ 0
-PTB18
-Text Label 600  8750 0    60   ~ 0
-PTB20
-Text Label 600  9350 0    60   ~ 0
-PTB28
-Text Label 600  9650 0    60   ~ 0
-PTC29
-Text Label 600  9250 0    60   ~ 0
-PTB19
-Text Label 600  10750 0    60   ~ 0
-PTD18
-Text Label 600  9950 0    60   ~ 0
-PTC26
-Text Label 600  10650 0    60   ~ 0
-PTD20
 Text Label 8850 3850 0    60   ~ 0
 PTD22
 Text Label 8850 3600 0    60   ~ 0
 PTD21
 Text Label 8850 4100 0    60   ~ 0
 PTD23
-Text Label 600  9150 0    60   ~ 0
-PTB21
-Text Label 600  9050 0    60   ~ 0
-PTB12
-Text Label 600  9850 0    60   ~ 0
-PTC28
-Text Label 600  9750 0    60   ~ 0
-PTC27
-Text Label 600  8950 0    60   ~ 0
-PTB22
-Text Label 600  10550 0    60   ~ 0
-PTD19
-Text Label 600  10450 0    60   ~ 0
-PTD13
 $Comp
 L GND #PWR123
 U 1 1 5601A975
@@ -953,8 +901,6 @@ F 3 "" H 15750 6000 60  0000 C CNN
 $EndComp
 Text Label 650  1450 0    60   ~ 0
 PTC10
-Text Label 600  8550 0    60   ~ 0
-PTA21
 Text Notes 600  5200 0    60   ~ 0
 SDHC0
 Text Notes 650  1250 0    60   ~ 0
@@ -1174,10 +1120,6 @@ F 3 "" H 10000 4100 30  0000 C CNN
 	1    10000 4100
 	0    1    1    0   
 $EndComp
-Text Label 600  10850 0    60   ~ 0
-PTD3
-Text Label 600  9550 0    60   ~ 0
-PTC7
 $Comp
 L R R110
 U 1 1 5639EB53
@@ -1299,8 +1241,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 2750 650  2750
 Wire Wire Line
-	600  8550 1550 8550
-Wire Wire Line
 	12500 1700 13050 1700
 Wire Wire Line
 	13050 1550 12500 1550
@@ -1311,59 +1251,19 @@ Wire Wire Line
 Wire Wire Line
 	12500 1100 13050 1100
 Wire Wire Line
-	600  10550 1550 10550
-Wire Wire Line
-	600  8950 1550 8950
-Wire Wire Line
-	1550 9750 600  9750
-Wire Wire Line
-	1550 9850 600  9850
-Wire Wire Line
-	1550 9050 600  9050
-Wire Wire Line
-	1550 9150 600  9150
-Wire Wire Line
 	9800 4100 8850 4100
 Wire Wire Line
 	8850 3600 9800 3600
 Wire Wire Line
 	9800 3850 8850 3850
 Wire Wire Line
-	600  10650 1550 10650
-Wire Wire Line
-	1550 9950 600  9950
-Wire Wire Line
-	600  10750 1550 10750
-Wire Wire Line
-	1550 9250 600  9250
-Wire Wire Line
-	1550 9650 600  9650
-Wire Wire Line
-	1550 9350 600  9350
-Wire Wire Line
-	1550 8750 600  8750
-Wire Wire Line
-	1550 8850 600  8850
-Wire Wire Line
-	1550 10450 600  10450
-Wire Wire Line
 	1300 1450 650  1450
 Wire Wire Line
 	1300 1350 650  1350
 Wire Wire Line
-	600  10350 1550 10350
-Wire Wire Line
-	5600 4750 6550 4750
-Wire Wire Line
 	1300 1650 650  1650
 Wire Wire Line
 	1300 1750 650  1750
-Wire Wire Line
-	600  8650 1550 8650
-Wire Wire Line
-	600  8250 1550 8250
-Wire Wire Line
-	1550 8350 600  8350
 Wire Wire Line
 	650  1550 1300 1550
 Wire Wire Line
@@ -1372,14 +1272,6 @@ Wire Wire Line
 	650  1950 1300 1950
 Wire Wire Line
 	1300 2250 650  2250
-Wire Wire Line
-	600  9450 1550 9450
-Wire Wire Line
-	1550 10050 600  10050
-Wire Wire Line
-	600  10150 1550 10150
-Wire Wire Line
-	600  10250 1550 10250
 Wire Wire Line
 	1800 5700 3650 5700
 Wire Wire Line
@@ -1390,8 +1282,6 @@ Wire Wire Line
 	1300 1850 650  1850
 Wire Wire Line
 	650  2150 1300 2150
-Wire Wire Line
-	1550 8450 600  8450
 Wire Wire Line
 	1800 6100 3850 6100
 Wire Wire Line
@@ -1727,10 +1617,6 @@ Connection ~ 11650 4500
 Wire Wire Line
 	11650 4700 11700 4700
 Connection ~ 11650 4600
-Wire Wire Line
-	1550 10850 600  10850
-Wire Wire Line
-	600  9550 1550 9550
 Wire Wire Line
 	10200 3600 10550 3600
 Wire Wire Line
@@ -2121,16 +2007,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 5200 3550 5200
 $Sheet
-S 4600 8100 1150 1450
-U 56FE0100
-F0 "power_supply" 60
-F1 "power_supply.sch" 60
-F2 "VIN(10V-60V)" I L 4600 8350 60 
-F3 "VIN(12V)" I L 4600 8650 60 
-F4 "VIN(5V)" I L 4600 8950 60 
-F5 "GND" I L 4600 9250 60 
-$EndSheet
-$Sheet
 S 4600 5700 1000 1750
 U 5711FD87
 F0 "Sensors" 60
@@ -2141,6 +2017,8 @@ F4 "INT" I L 4600 6300 60
 F5 "SDI" I L 4600 6700 60 
 F6 "SCK" I L 4600 6900 60 
 F7 "SDO" I L 4600 7100 60 
+F8 "~CS" I L 4600 7300 60 
+F9 "TEMP_SENSOR" I R 5600 7300 60 
 $EndSheet
 Text Notes 5700 6200 0    60   ~ 0
 \n \nBME280 \nCombined humidity and pressure sensor 
@@ -2449,6 +2327,588 @@ Wire Wire Line
 	8400 1350 8400 1400
 Text Notes 12000 3350 0    60   ~ 0
 Funktion!
-Text Notes 3650 2000 0    60   ~ 0
-???
+Text Notes 4150 6350 0    60   ~ 0
+INT ???
+$Sheet
+S 4600 8100 1150 1450
+U 56FE0100
+F0 "power_supply" 60
+F1 "power_supply.sch" 60
+F2 "VIN(5V)" I L 4600 8950 60 
+F3 "GND" I L 4600 9250 60 
+$EndSheet
+Text Label 23350 2500 0    60   ~ 0
+~RESET
+Text Label 25950 6300 0    60   ~ 0
+PTA12
+Text Label 25950 6100 0    60   ~ 0
+PTC7
+Text Label 25950 6000 0    60   ~ 0
+PTC13
+Text Label 25950 5700 0    60   ~ 0
+PTC14
+Text Label 17350 4500 0    60   ~ 0
+PTB0
+Text Label 17350 4400 0    60   ~ 0
+PTB1
+Text Label 25950 4300 0    60   ~ 0
+PTC8
+Text Label 28350 2000 2    60   ~ 0
+VADCSE3
+Text Label 28350 2100 2    60   ~ 0
+VADCSE1
+Text Label 28350 2200 2    60   ~ 0
+VADCSE0
+Text Label 28350 2300 2    60   ~ 0
+VADCSE2
+Text Label 19250 2900 0    60   ~ 0
+ADC1SE9
+Text Label 19250 3000 0    60   ~ 0
+ADC1SE8
+Text Label 19250 3100 0    60   ~ 0
+ADC0SE8
+Text Label 19250 3200 0    60   ~ 0
+ADC0SE9
+Text Label 19250 3400 0    60   ~ 0
+DAC1
+Text Label 19250 3500 0    60   ~ 0
+DAC0
+Text Label 25950 4000 0    60   ~ 0
+PTA19
+Text Label 25950 3800 0    60   ~ 0
+PTA18
+Text Label 17350 4600 0    60   ~ 0
+PTB2
+Text Label 25950 3600 0    60   ~ 0
+PTB27
+Text Label 25950 3500 0    60   ~ 0
+PTC31
+Text Label 25950 3300 0    60   ~ 0
+PTA17
+Text Label 25950 3200 0    60   ~ 0
+PTA16
+Text Label 17350 4800 0    60   ~ 0
+PTB3
+Text Label 17350 4700 0    60   ~ 0
+PTB4
+Text Label 17350 5000 0    60   ~ 0
+PTB6
+Text Label 17350 4900 0    60   ~ 0
+PTB5
+Text Label 25950 5300 0    60   ~ 0
+PTC30
+Text Label 17400 6150 0    60   ~ 0
+USB1_D-
+Text Label 17400 6050 0    60   ~ 0
+USB1_D+
+Text Label 17400 5900 0    60   ~ 0
+USB1_VBUS
+Text Label 3800 2050 2    60   ~ 0
+USB0_VBUS
+Text Label 17400 9200 0    60   ~ 0
+PTD12
+Text Label 25950 5100 0    60   ~ 0
+PTD4
+Text Label 25950 5000 0    60   ~ 0
+PTD5
+Text Label 25950 4800 0    60   ~ 0
+PTD6
+Text Label 17400 9400 0    60   ~ 0
+PTD10
+Text Label 17400 9300 0    60   ~ 0
+PTD11
+Text Label 25950 4500 0    60   ~ 0
+PTD1
+Text Label 28350 4700 2    60   ~ 0
+PTA7
+Text Label 28350 4500 2    60   ~ 0
+PTD0
+Text Label 28350 4400 2    60   ~ 0
+PTD3
+Text Label 28350 3900 2    60   ~ 0
+PTA31
+Text Label 28350 4000 2    60   ~ 0
+PTA30
+Text Label 28350 4200 2    60   ~ 0
+PTD2
+Text Label 17400 9500 0    60   ~ 0
+PTD9
+Text Label 23350 6800 0    60   ~ 0
+PTE20
+Text Label 17400 7050 0    60   ~ 0
+PTB18
+Text Label 17400 7250 0    60   ~ 0
+PTB20
+Text Label 17400 6400 0    60   ~ 0
+PTB15
+Text Label 17400 6500 0    60   ~ 0
+PTB14
+Text Label 17400 6750 0    60   ~ 0
+PTB17
+Text Label 25750 6600 2    60   ~ 0
+PTB10
+Text Label 25750 6500 2    60   ~ 0
+PTB28
+Text Label 23350 6300 0    60   ~ 0
+PTB25
+Text Label 23350 6200 0    60   ~ 0
+PTB26
+Text Label 23350 6100 0    60   ~ 0
+PTC29
+Text Label 17400 8850 0    60   ~ 0
+PTB24
+Text Label 17400 8750 0    60   ~ 0
+PTB23
+Text Label 25750 6200 2    60   ~ 0
+PTE27
+Text Label 25750 6100 2    60   ~ 0
+PTE25
+Text Label 25750 6000 2    60   ~ 0
+PTE26
+Text Label 17400 8400 0    60   ~ 0
+PTA21
+Text Label 17400 8050 0    60   ~ 0
+PTD16
+Text Label 23400 5500 0    60   ~ 0
+PTE24
+Text Label 17400 8150 0    60   ~ 0
+PTD17
+Text Label 17400 7150 0    60   ~ 0
+PTB19
+Text Label 17400 7700 0    60   ~ 0
+PTD18
+Text Label 17350 2800 0    60   ~ 0
+PTC26
+Text Label 25750 5500 2    60   ~ 0
+PTD20
+Text Label 17350 2600 0    60   ~ 0
+PTD25
+Text Label 17350 2700 0    60   ~ 0
+PTD29
+Text Label 25750 5100 2    60   ~ 0
+PTE23
+Text Label 25750 5000 2    60   ~ 0
+PTB8
+Text Label 25750 4800 2    60   ~ 0
+PTE12
+Text Label 25750 4700 2    60   ~ 0
+PTE15
+Text Label 25750 4600 2    60   ~ 0
+PTE9
+Text Label 23350 5100 0    60   ~ 0
+PTD22
+Text Label 23350 5000 0    60   ~ 0
+PTD21
+Text Label 23350 4900 0    60   ~ 0
+PTD23
+Text Label 17350 2500 0    60   ~ 0
+PTD24
+Text Label 17350 2900 0    60   ~ 0
+PTD30
+Text Label 23350 4700 0    60   ~ 0
+PTB9
+Text Label 17350 3000 0    60   ~ 0
+PTD31
+Text Label 23350 4500 0    60   ~ 0
+PTE18
+Text Label 23350 4300 0    60   ~ 0
+PTE17
+Text Label 23350 4200 0    60   ~ 0
+PTE19
+Text Label 23350 4100 0    60   ~ 0
+PTE16
+Text Label 23350 4000 0    60   ~ 0
+PTE8
+Text Label 23350 3800 0    60   ~ 0
+PTE7
+Text Label 23350 3700 0    60   ~ 0
+PTE2
+Text Label 23350 3600 0    60   ~ 0
+PTE4
+Text Label 23350 3500 0    60   ~ 0
+PTE1
+Text Label 25750 4500 2    60   ~ 0
+PTD26
+Text Label 17400 7350 0    60   ~ 0
+PTB21
+Text Label 17350 5100 0    60   ~ 0
+PTB7
+Text Label 25750 4100 2    60   ~ 0
+PTB12
+Text Label 25750 4000 2    60   ~ 0
+PTC28
+Text Label 25750 3800 2    60   ~ 0
+PTC27
+Text Label 25750 3700 2    60   ~ 0
+PTB11
+Text Label 17400 7450 0    60   ~ 0
+PTB22
+Text Label 17400 6850 0    60   ~ 0
+PTB16
+Text Label 23350 3300 0    60   ~ 0
+PTA22
+Text Label 23350 3200 0    60   ~ 0
+PTB13
+Text Label 17400 7800 0    60   ~ 0
+PTD19
+Text Label 17350 3100 0    60   ~ 0
+PTD28
+Text Label 17350 3200 0    60   ~ 0
+PTD27
+Text Label 25750 2000 2    60   ~ 0
+PTE21
+Text Label 25750 2950 2    60   ~ 0
+PTE28
+Text Label 25750 2800 2    60   ~ 0
+PTE11
+Text Label 25750 2100 2    60   ~ 0
+PTE10
+Text Label 25750 2200 2    60   ~ 0
+PTD8
+Text Label 17400 9100 0    60   ~ 0
+PTD13
+Text Label 25750 2500 2    60   ~ 0
+PTE13
+Text Label 25750 2600 2    60   ~ 0
+PTE6
+Text Label 23350 3100 0    60   ~ 0
+PTE14
+Text Label 23350 3000 0    60   ~ 0
+PTE3
+Text Label 17400 8500 0    60   ~ 0
+PTA20
+Text Label 23350 6900 0    60   ~ 0
+PTA23
+Text Label 25750 2700 2    60   ~ 0
+PTE22
+Text Label 23350 2800 0    60   ~ 0
+PTE0
+Text Label 23350 2600 0    60   ~ 0
+VBAT
+Text Notes 28350 3400 2    60   ~ 0
+LVDS0_N
+Text Notes 28350 3500 2    60   ~ 0
+LVDS0_P
+$Comp
+L GND #PWR?
+U 1 1 57369A51
+P 28350 3400
+F 0 "#PWR?" H 28350 3150 50  0001 C CNN
+F 1 "GND" H 28350 3250 50  0000 C CNN
+F 2 "" H 28350 3400 60  0000 C CNN
+F 3 "" H 28350 3400 60  0000 C CNN
+	1    28350 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57369A57
+P 28350 3500
+F 0 "#PWR?" H 28350 3250 50  0001 C CNN
+F 1 "GND" H 28350 3350 50  0000 C CNN
+F 2 "" H 28350 3500 60  0000 C CNN
+F 3 "" H 28350 3500 60  0000 C CNN
+	1    28350 3500
+	0    -1   -1   0   
+$EndComp
+Text Label 28350 5000 2    60   ~ 0
+PTD7
+Wire Wire Line
+	27400 5000 28350 5000
+Wire Wire Line
+	24300 2800 23350 2800
+Wire Wire Line
+	24300 2600 23350 2600
+Wire Wire Line
+	24300 2500 23350 2500
+Wire Wire Line
+	18350 8500 17400 8500
+Wire Wire Line
+	24300 6900 23350 6900
+Wire Wire Line
+	17400 7800 18350 7800
+Wire Wire Line
+	18300 3100 17350 3100
+Wire Wire Line
+	17350 3200 18300 3200
+Wire Wire Line
+	24800 2950 25750 2950
+Wire Wire Line
+	23350 3000 24300 3000
+Wire Wire Line
+	24300 3100 23350 3100
+Wire Wire Line
+	23350 3200 24300 3200
+Wire Wire Line
+	24300 3300 23350 3300
+Wire Wire Line
+	17400 7450 18350 7450
+Wire Wire Line
+	18350 6850 17400 6850
+Wire Wire Line
+	25750 3700 24800 3700
+Wire Wire Line
+	24800 3800 25750 3800
+Wire Wire Line
+	23350 3500 24300 3500
+Wire Wire Line
+	24300 3600 23350 3600
+Wire Wire Line
+	23350 3700 24300 3700
+Wire Wire Line
+	24300 3800 23350 3800
+Wire Wire Line
+	24800 4000 25750 4000
+Wire Wire Line
+	24800 4100 25750 4100
+Wire Wire Line
+	17350 5100 18300 5100
+Wire Wire Line
+	18350 7350 17400 7350
+Wire Wire Line
+	23350 4000 24300 4000
+Wire Wire Line
+	24300 4100 23350 4100
+Wire Wire Line
+	23350 4200 24300 4200
+Wire Wire Line
+	24300 4300 23350 4300
+Wire Wire Line
+	23350 4500 24300 4500
+Wire Wire Line
+	18300 3000 17350 3000
+Wire Wire Line
+	23350 4700 24300 4700
+Wire Wire Line
+	18300 2900 17350 2900
+Wire Wire Line
+	25750 4500 24800 4500
+Wire Wire Line
+	24800 4600 25750 4600
+Wire Wire Line
+	25750 4700 24800 4700
+Wire Wire Line
+	24800 4800 25750 4800
+Wire Wire Line
+	17350 2500 18300 2500
+Wire Wire Line
+	24300 4900 23350 4900
+Wire Wire Line
+	23350 5000 24300 5000
+Wire Wire Line
+	24300 5100 23350 5100
+Wire Wire Line
+	25750 5000 24800 5000
+Wire Wire Line
+	24800 5100 25750 5100
+Wire Wire Line
+	17350 2700 18300 2700
+Wire Wire Line
+	18300 2600 17350 2600
+Wire Wire Line
+	25750 5500 24800 5500
+Wire Wire Line
+	18300 2800 17350 2800
+Wire Wire Line
+	17400 7700 18350 7700
+Wire Wire Line
+	18350 7150 17400 7150
+Wire Wire Line
+	17400 8150 18350 8150
+Wire Wire Line
+	24350 5500 23400 5500
+Wire Wire Line
+	17400 8050 18350 8050
+Wire Wire Line
+	18350 8400 17400 8400
+Wire Wire Line
+	25750 6000 24800 6000
+Wire Wire Line
+	24800 6100 25750 6100
+Wire Wire Line
+	25750 6200 24800 6200
+Wire Wire Line
+	18350 8750 17400 8750
+Wire Wire Line
+	18350 8850 17400 8850
+Wire Wire Line
+	24300 6100 23350 6100
+Wire Wire Line
+	23350 6200 24300 6200
+Wire Wire Line
+	24300 6300 23350 6300
+Wire Wire Line
+	24800 6500 25750 6500
+Wire Wire Line
+	25750 6600 24800 6600
+Wire Wire Line
+	18350 6750 17400 6750
+Wire Wire Line
+	18350 6400 17400 6400
+Wire Wire Line
+	18350 7250 17400 7250
+Wire Wire Line
+	18350 7050 17400 7050
+Wire Wire Line
+	18350 6500 17400 6500
+Wire Wire Line
+	24300 6800 23350 6800
+Wire Wire Line
+	25750 2500 24800 2500
+Wire Wire Line
+	24800 2600 25750 2600
+Wire Wire Line
+	25750 2700 24800 2700
+Wire Wire Line
+	24800 2800 25750 2800
+Wire Wire Line
+	24800 2100 25750 2100
+Wire Wire Line
+	25750 2200 24800 2200
+Wire Wire Line
+	18350 9100 17400 9100
+Wire Wire Line
+	24800 2000 25750 2000
+Wire Wire Line
+	28350 3900 27400 3900
+Wire Wire Line
+	27400 4000 28350 4000
+Wire Wire Line
+	27400 4200 28350 4200
+Wire Wire Line
+	17400 9500 18350 9500
+Wire Wire Line
+	27400 4400 28350 4400
+Wire Wire Line
+	28350 4500 27400 4500
+Wire Wire Line
+	27400 4700 28350 4700
+Wire Wire Line
+	27400 3500 28350 3500
+Wire Wire Line
+	28350 3400 27400 3400
+Wire Wire Line
+	18350 5900 17400 5900
+Wire Wire Line
+	17400 6050 18350 6050
+Wire Wire Line
+	18350 6150 17400 6150
+Wire Wire Line
+	18300 4900 17350 4900
+Wire Wire Line
+	17350 5000 18300 5000
+Wire Wire Line
+	18300 4700 17350 4700
+Wire Wire Line
+	17350 4800 18300 4800
+Wire Wire Line
+	26900 3200 25950 3200
+Wire Wire Line
+	25950 3300 26900 3300
+Wire Wire Line
+	26900 3500 25950 3500
+Wire Wire Line
+	25950 3600 26900 3600
+Wire Wire Line
+	18300 4600 17350 4600
+Wire Wire Line
+	25950 3800 26900 3800
+Wire Wire Line
+	26900 4000 25950 4000
+Wire Wire Line
+	28350 2000 27400 2000
+Wire Wire Line
+	27400 2100 28350 2100
+Wire Wire Line
+	28350 2200 27400 2200
+Wire Wire Line
+	27400 2300 28350 2300
+Wire Wire Line
+	19250 2900 20200 2900
+Wire Wire Line
+	20200 3000 19250 3000
+Wire Wire Line
+	19250 3100 20200 3100
+Wire Wire Line
+	20200 3200 19250 3200
+Wire Wire Line
+	19250 3400 20200 3400
+Wire Wire Line
+	20200 3500 19250 3500
+Wire Wire Line
+	25950 4300 26900 4300
+Wire Wire Line
+	25950 4500 26900 4500
+Wire Wire Line
+	18350 9300 17400 9300
+Wire Wire Line
+	17400 9400 18350 9400
+Wire Wire Line
+	26900 4800 25950 4800
+Wire Wire Line
+	25950 5000 26900 5000
+Wire Wire Line
+	26900 5100 25950 5100
+Wire Wire Line
+	17400 9200 18350 9200
+Wire Wire Line
+	26900 5300 25950 5300
+Wire Wire Line
+	17350 4400 18300 4400
+Wire Wire Line
+	18300 4500 17350 4500
+Wire Wire Line
+	25950 5700 26900 5700
+Wire Wire Line
+	25950 6000 26900 6000
+Wire Wire Line
+	26900 6100 25950 6100
+Wire Wire Line
+	26900 6300 25950 6300
+Wire Wire Line
+	24300 2700 23350 2700
+Text Label 23350 2700 0    60   ~ 0
+PTE5
+Text Notes 17400 6300 0    60   ~ 0
+CAN_0
+Text Notes 17400 6650 0    60   ~ 0
+I2C_1
+Text Notes 17400 6950 0    60   ~ 0
+SPI_0
+Text Notes 17400 5800 0    60   ~ 0
+USB_1
+Text Notes 17400 7600 0    60   ~ 0
+I2C_0
+Text Notes 17400 7950 0    60   ~ 0
+I2C_1
+Text Notes 17400 8300 0    60   ~ 0
+UART_3
+Text Notes 17400 8650 0    60   ~ 0
+UART_1
+Text Notes 18450 9250 0    60   ~ 0
+TD9 auf anderem Stecker, \nZeit Probleme
+Text Notes 17400 9000 0    60   ~ 0
+SPI_3
+Text Notes 18450 8500 0    60   ~ 0
+Was ist RTS,CTS?\nBraucht man das?
+Text Notes 18450 6000 0    60   ~ 0
+VBUS braucht man das?\nVBUS_EN/OC was ist damit?  
+Text Notes 18500 6100 0    60   ~ 0
+Stecker
+Text Notes 18450 6300 0    60   ~ 0
+Stecker
+Text Notes 18450 6650 0    60   ~ 0
+Sesnor Platine
+Text Notes 18450 6950 0    60   ~ 0
+Sesnor Platine
+Text Notes 18450 7650 0    60   ~ 0
+Stecker
+Text Notes 18450 7950 0    60   ~ 0
+Stecker
+Text Notes 18450 8300 0    60   ~ 0
+Stecker
+Text Notes 18450 8650 0    60   ~ 0
+Platine
+Text Notes 18450 9000 0    60   ~ 0
+Stecker
 $EndSCHEMATC
